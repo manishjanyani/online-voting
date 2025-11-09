@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>online voting system  </title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <div id="headersection">
+        <h1>online voting system</h1>
+    </div>
+    <hr>
+    <div id="footersection">
+        <form action="api/login.php" method="post">
+            <h2>Login</h2>
+            <input type="number" name="mobile" placeholder="enter moblie"style="border: 1px solid #ccc; border-radius: 25px; padding: 10px; width: 200px;"><br><br>
+            <input type="password" name="password" placeholder="enter password"style="border: 1px solid #ccc; border-radius: 25px; padding: 10px; width: 200px;"><br><br>
+            <select name="role" id="dropbox"style="border: 1px solid #ccc; border-radius: 25px; padding: 10px; width: 200px;">
+                <option value="1">voter</option>
+                <option value="2">gruop</option>
+            </select><br><br>
+            <button class="btn" type="submit">login</button><br><br>
+            new user?<a href="rotes/rgister.html">register here</a>
+        </form>
+    </div>
+    </body>
+</html>
